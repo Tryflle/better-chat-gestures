@@ -114,7 +114,7 @@ const BetterChatGestures: Plugin = {
                     });
                 }
 
-                ChatInputRef.openSystemKeyboard()
+                //ChatInputRef.openSystemKeyboard()
 
                 return;
             }
@@ -126,7 +126,7 @@ const BetterChatGestures: Plugin = {
                     shouldMention: true
                 })
 
-                ChatInputRef.openSystemKeyboard()
+                //ChatInputRef.openSystemKeyboard()
             }
 
             this.currentTapIndex = 0;
